@@ -1,0 +1,724 @@
+:root {
+    --primary: #22388b;
+    --heading-size: 70px;
+    --paragraph-font: 22px;
+    --secondary: #052862;
+    --secondary2: #2aa7e1;
+    --body-font: "Calibri";
+    --body-font-color:#383838;
+  }
+  body { font-family:'Poppins', sans-serif; }
+  @media (min-width: 1400px) {
+    .container {
+      max-width: 1107px !important;
+    }
+  }
+  hr{
+    margin: 0 !important; 
+    /* color: green !important; */
+    border-top: 2px solid #00ab5f !important;
+    margin-left: 15px !important;
+    opacity: 1px !important;
+    width: 68px;
+  }
+  .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 11px !important;
+    height: 11px !important;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.7 !important;
+    transition: opacity .6s ease;
+    border-radius: 50% !important;
+}
+.carousel-indicators .active{
+  background-color: #4f5729 !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  border-radius: 50%;
+  width: 49px;
+  height: 49px;
+  background-color: #e9ece0 !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color: #4f5729 !important;;
+}
+.carousel-control-prev-icon , .carousel-control-next-icon{
+  background-size: 15px !important;
+}
+.carousel-control-next, .carousel-control-prev{
+  height: 40px !important;
+  top: 230px !important;
+  cursor: context-menu !important;
+  width: 46px !important;
+  margin: 0 100px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  cursor: pointer;
+}
+
+
+/* our-story */
+.our-story{
+  margin-top: 54px;
+  text-align: center;
+}
+h2{
+  font-size: 28px;
+  line-height: 38px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+p{
+  margin-top: 32px !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+
+/* Vedic-Tea */
+.Vedic-Tea{
+  margin-top: 80px;
+  text-align: center;
+  background: url(../images/vadicflower.png) left bottom no-repeat, url(../images/vadicleef.png) right top no-repeat;
+}
+.Vedic{
+  font-size: 24px !important;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+
+.img-body-section{
+  display: flex;
+  margin-top: 32px;
+}
+.img-section{
+  margin-left: 95px;
+  /* margin-bottom: 70px; */
+  position: relative;
+}
+.vadic-tea-img{
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  width: 236px;
+  height: 240px;
+}
+.title{
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: -35px;
+  width: 230px;
+  justify-content: space-between;
+  padding: 0 4px;
+}
+.bottom-title{
+  margin: 0 !important;
+  text-align: left;
+  padding-top: 32px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+
+/* .read-more {
+ position: relative;
+}
+
+.read-morecontant{
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 70px;
+  width: 100%;
+  height: 510px; 
+  background-image: url(/images//read-more.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.read-heading{
+font-size: 28px;
+font-weight: 700;
+line-height: 38px;
+}
+.bttn{
+  position: absolute;
+  bottom: 10px; 
+  left: 50%;
+  transform: translateX(-50%);
+} */
+.read-more-btn{
+  background: #00ab5f;
+  color: #fff;
+  font-size: 19px;
+  line-height: 22px;
+  font-weight: 400;
+  border: 0;
+  padding: 12px 45px;
+  border-radius: 4px;
+}
+
+
+.read-more {
+  position: relative;
+  margin-top: 70px;
+  width: 100%;
+  height: 510px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images//read-more.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.read-heading{
+  position: absolute;
+  top: 35px; 
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px !important;
+  font-weight: 700;
+  line-height: 35px;
+}
+.bottom-button {
+  position: absolute;
+  bottom: 70px; 
+  left: 50%;
+  transform: translateX(-50%);
+  background: #00ab5f;
+  color: #fff;
+  font-size: 19px;
+  line-height: 22px;
+  font-weight: 400;
+  border: 0;
+  padding: 12px 45px;
+  border-radius: 4px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.bottom-button:hover{
+  /* background: #fff; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  /* color: #00ab5f; */
+}
+
+
+.reels{
+  margin: 50px 0;
+}
+
+.reel-card{
+  position: relative;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.card-group{
+  display: flex;
+  gap: 15px;
+}
+.reel-video-icon{
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+.text-overlay{
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+}
+.text-overlay-text{
+  margin: 0 !important;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  padding: 15px;
+}
+
+
+
+/* talk-seaction */
+.talk-seaction {
+  position: relative;
+  margin-top: 70px;
+  width: 100%;
+  height: 750px;
+}
+
+.talk-seaction-background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/multiple-talk.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card-content-area{
+  position: absolute;
+  top: 120px;
+  cursor: pointer;
+}
+.talk-smallcard-body , .talk-card-body {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+}
+.talk-smallcard-body:hover , .talk-card-body:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.talk-card-body img{
+  width: 100%;
+}
+.talk-card-footer{
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  padding: 26px;
+}
+.talk-card-footer p{
+  color: #000;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  margin: 0px !important;
+}
+.talk-smallcard-body img{
+  border-radius:  10px 10px 0 0;
+  width: 100%;
+}
+.talk-scard-footer{
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  padding: 12px;
+}
+.talk-scard-footer p{
+  color: #000;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 0px !important;
+}
+.bottom-small-card{
+  margin-top: 26px  !important;
+}
+
+.frame{
+  width: 560px;
+  height: 315px;
+}
+
+
+/* article */
+
+
+.article{
+margin: 50px 0;
+text-align: center;
+}
+.article-heading{
+  font-size: 28px !important;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+
+
+
+.form-seaction {
+  position: relative;
+  margin-top: 70px;
+  width: 100%;
+  height: 610px;
+}
+.form-section-row{
+  margin-top: 30px  !important;
+}
+.form-seaction-background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/Form.png); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.left-side{
+  width: 100%;
+}
+
+.form-content-area{
+  position: absolute;
+  width: 75%;
+  top: 100px;
+}
+.form-content-area h3{
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: 700;
+  display: flex;
+  gap: 22px;
+  align-items: flex-end;
+}
+.form-content-area h2{
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 800;
+  color: #9a6328;
+}
+
+.nopadding{
+  width: 232px !important;
+  margin: 0px 10px !important;
+  padding: 0px !important;
+}
+input{
+  width: 100%;
+  height: 43px;
+  padding: 16px;
+  font-size: 14px !important ;
+  border-radius: 5px;
+  border: none;
+}
+
+  .form-section2{
+    margin-top: 22px !important;
+  }
+  .form-section2 input{
+    /* margin: 0 10px; */
+  }
+  .submit-btn{
+    background: #9a6328;
+    color: #fff;
+    width: 232px;
+    height: 43px;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+
+  .upload{
+    position: relative;
+  }
+.upload-img{
+  position: absolute;
+  right: 9px;
+  bottom: 14px;
+}
+
+.last-section{
+  margin: 70px 0;
+}
+
+h4{
+  font-size: 17px !important;
+  font-weight: 600 !IMPORTANT;
+  line-height: 35px;
+  margin-bottom: 10px !important;
+}
+.last-section .row{
+  margin-top: 40px;
+}
+
+#wrapper {
+  width: 100%;
+  max-width: 964px;
+  position: relative;
+}
+
+#carousel {
+  overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+#carousel::-webkit-scrollbar {
+  height: 0;
+}
+
+#prev,
+#next {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: white;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+}
+
+#prev {
+  top: 50%;
+  left: 0;
+  transform: translate(50%, -50%);
+  display: none;
+}
+
+#next {
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+#content {
+  display: grid;
+  grid-gap: 16px;
+  grid-auto-flow: column;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.item {
+  width: 180px;
+  height: 180px;
+  background: green;
+}
+
+.first-container{
+    max-width: 1257px;
+    margin: auto;
+}
+
+.image-class{
+  height: 315px;
+}
+
+
+
+
+
+
+
+
+
+/* media query */
+
+
+@media(min-width: 499px)and (max-width:790px) {
+  .read-heading {
+    left: 48%;
+  }
+  .card-group {
+    display: flex;
+    flex-flow: nowrap !important;
+  }
+  
+.container, .container-md, .container-sm {
+    max-width: 720px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.talk-card-footer p {
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.talk-scard-footer p {
+  font-size: 12px;
+  line-height: 17px;
+  text-align: justify;
+}
+
+.form-seaction{
+  margin-top: 0;
+}
+
+.talk-seaction-background-image {
+  height: 82%;
+}
+.nopadding {
+  margin: 2px 10px !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  position: relative;
+  bottom: 8rem;
+}
+
+.form-section2 {
+  margin-top: 0px !important;
+}
+
+.medium-width{
+  position: relative;
+  top: -53px;
+}
+
+.form-content-area h2 {
+  font-size: 17px;
+}
+
+.award-section{
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px !important ;
+}
+h4{font-size: 22px !IMPORTANT;
+  margin-top: 40px;
+  margin-bottom: 20px !important;
+  text-align: center;}
+.image-class{
+  width: 100%;
+  height: inherit;
+}
+.frame{
+width: 100%;
+}
+.carousel-control-next-icon{
+  right: 29px;
+}
+
+.carousel-control-prev-icon{
+  left: -91px;
+}
+.last-section{
+  margin: 0px;
+}
+
+}
+
+@media(min-width: 320px)and (max-width:498px){
+  body{
+    padding: 0 5px;
+  }
+  .carousel-control-next-icon{
+    right: -90px;
+  }
+  .submit-btn {
+    width: 168px;
+    margin-top: 10px;
+  }
+  .last-section{
+    margin: 0px;
+  }
+  .form-section2{
+    margin-top: 0px  !important;
+  }
+  .carousel-control-prev-icon{
+    left: -91px;
+  }
+  .img-body-section , .card-group{
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .img-body-section{
+  padding-bottom: 200px;
+  }
+  .Vedic-Tea {
+    height: 420px;
+  }
+  .read-more {
+    height: 260px;
+}
+.bottom-button {
+  bottom: 34px;
+  transform: translateX(-50%);
+  font-size: 13px;
+  font-weight: 400;
+  padding: 4px 20px;
+}
+.container{
+  padding: 0 10px;
+}
+.read-more .read-heading{
+  top: 10px;
+  font-size: 12px !important;
+}
+.read-heading {
+  top: 35px;
+  font-size: 21px !important;
+ }
+  .talk-card-body{
+    display: none;
+  }
+  .carousel-item img{
+    height: 120%;
+  }
+  .talk-seaction{
+    height: 674px;
+  }
+  
+  .talk-scard-footer p{
+    font-size: 12px;
+  }
+  .collumn-first{
+    width: 100% !important ;
+  }
+
+  .award-section{
+    display: flex;
+    flex-direction: column;
+  }
+  p {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .image-class{
+    width: 100%;
+    height: inherit;
+  }
+  h4{
+    margin-top: 20px !important;
+    margin-bottom: 9px !important;
+    font-size: 18px !IMPORTANT;
+  }
+  .frame {
+    width: 400px;
+    height: 315px;
+  }
+
+  .award-section{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .form-content-area h3 {
+    font-size: 10px;
+    line-height: 18px;
+  }
+
+  .form-content-area h2 {
+    font-size: 9px;
+    line-height: 18px;
+  }
+
+  .medium-width{
+    position: relative;
+    top: -52px;
+  }
+
+  .nopadding {
+    margin: 4px 10px !important;
+  }
+  .award-section{
+    margin: 0 !important;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon{
+    position: relative;
+    bottom: 12rem;
+  }
+
+}
+
