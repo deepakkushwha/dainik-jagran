@@ -277,7 +277,7 @@ line-height: 38px;
   position: absolute;
   top: 120px;
   cursor: pointer;
-  width: 93%;
+ 
 }
 .talk-smallcard-body , .talk-card-body {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -603,6 +603,9 @@ width: 100%;
 }
 
 @media(min-width: 320px)and (max-width:498px){
+  .card-content-area{
+    width: 93%;
+  }
   body{
     padding: 0 5px;
   }
